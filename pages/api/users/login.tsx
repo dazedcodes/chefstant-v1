@@ -4,7 +4,7 @@ import bcrypt from "bcrypt";
 const INVALID_CREDENTIALS_ERROR = "Invalid username or password";
 const NO_CREDENTIALS_PROVIDED_ERROR = "You must provide a username and password to login.";
 
-export default async function authenticate(username: String, password: String) {
+export default async function authenticate(username: string, password: string) {
     //Connect to DB. We have to instantiate a connection without using middleware because this route will be used as a function rather than as a HTTP request handler.
     const db = await connectToDb();
 
