@@ -8,10 +8,9 @@ export default function Index({session}){
       <Wrapper session={session}>
           {
           }
-        <h1> Welcome to NextJS Base. </h1>
+        <h1> chefstant </h1>
         <p> 
-            This is a starter template with authentication, scss, and other essentials already baked in, 
-            so you don't have to waste your time setting up a full stack app.
+            private dining + meal prep delivery app
             {
                 session ? <Link href="/dashboard"> Access your dashboard </Link> : <Link href="/auth/login"> Login </Link>
             } 
