@@ -5,7 +5,7 @@ export default function Header({session}) {
     return (
         <>
         <Head>
-          <title>Hack4Impact Full Stack Project Template</title>
+          <title> Chefstant | a private dining + meal prep delivery app</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navigation session={session}/>
